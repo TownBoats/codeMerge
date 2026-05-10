@@ -141,6 +141,12 @@
 4. 选择 "Open with Live Server"
 5. 浏览器会自动打开并访问项目
 
+### 方案三：Windows 批处理脚本
+
+1. 下载项目文件到本地
+2. 在项目根目录双击 `start_server_and_open.bat` 脚本
+3. 脚本会自动启动 Python HTTP 服务器并尝试在默认浏览器中打开 `http://localhost:8000`
+
 ### 注意事项
 - 无需安装其他依赖，所有必要的库都通过CDN加载
 - 确保选择的端口没有被其他应用占用
@@ -302,6 +308,12 @@ Since the project uses ES6 modules, it cannot be opened directly through the fil
 3. Right-click on `index.html` file
 4. Select "Open with Live Server"
 5. Browser will automatically open and access the project
+
+### Option 3: Windows Batch Script
+
+1.  Download the project files to your local machine.
+2.  In the project root directory, double-click the `start_server_and_open.bat` script.
+3.  The script will automatically start the Python HTTP server and attempt to open `http://localhost:8000` in your default browser.
 
 ### Notes
 - No additional dependencies needed, all required libraries are loaded via CDN
